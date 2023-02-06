@@ -65,4 +65,20 @@ function leaderSpot(){
     leaderEl.innerHTML = "LEADER: " + "GUEST")
 }
 
+// function blink() {
+//     var f = document.getElementById('home-score');
+//     setInterval(function() {
+//        f.style.display = (f.style.display == 'none' ? '' : 'none');
+//     }, 1000);
+// }
+
+// function blink()
+//  {
+//    if(document.getElementById("home-score"))
+//    {
+//        var d = document.getElementById("home-score") ;
+//        d.style.color= (d.style.color=='blue'?'white':'blue');
+//        setTimeout('blink()', 900);
+//    } 
+// }
 
