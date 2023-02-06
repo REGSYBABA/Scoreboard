@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,600;1,700&family=Brygada+1918:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h3 id="foo">HOME</h3>
+            <h2 id="home-score">0</h2>
+            <div class="score-btn">
+                <button id="home-score-btn-1" onclick="increaseHomeScoreOne()">+1</button>
+                <button id="home-score-btn-2" onclick="increaseHomeScoreTwo()">+2</button>
+                <button id="home-score-btn-3" onclick="increaseHomeScoreThree()">+3</button>
+            </div>
+        </div>
+        <div class="title">
+            <h3 id="chips">GUEST</h3>
+            <h2 id="guest-score">0</h2>
+            <div class="score-btn">
+                <button id="guest-score-btn-1">+1</button>
+                <button id="guest-score-btn-2">+2</button>
+                <button id="guest-score-btn-3">+3</button>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <button id="newcard-btn" onclick="newGame()">NEW GAME</button>
+        <button id="leadercard-btn" onclick="leaderSpot()">LEADER</button>
+    </div>  
+    <script src="/index.js"></script>
+</body>
+</html>
